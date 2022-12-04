@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #a50000;
+    color: #fff;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 9%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .nav-links{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav .nav-links a{
+    color: #a50000;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+nav .buttons{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav .buttons a{
+    background-color: #a50000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+
+nav .buttons a:hover{
+    background-color: red;
+    transform: translateY(-5px);
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.row .col-1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row .col-1{
+    padding-left: 8%;
+}
+
+.row .col-1 a{
+  background-color: #fff;
+  border: none;
+  color: #a50000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+  position: fixed;
+}
